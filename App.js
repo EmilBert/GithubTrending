@@ -1,4 +1,3 @@
-import { StatusBar } from 'expo-status-bar';
 import { useEffect, useState } from 'react';
 import { StyleSheet, Text, View, Pressable, Linking} from 'react-native';
 import DropDownPicker from 'react-native-dropdown-picker';
@@ -165,6 +164,8 @@ const styles = StyleSheet.create({
     zIndex: 1000,
     width: "95%",
     maxWidth: 500,
+    maxHeight:400,
+    overflow:"scroll-y",
     top:10,
     backgroundColor: 'white',
     padding: 10,
